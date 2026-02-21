@@ -6,7 +6,7 @@ import google.generativeai as genai
 import os
 
 # Set your Gemini API key
-GENAI_API_KEY = "AIzaSyCVaN_2U7TFdfR-AwILSHipPR2EJ1GnTaY"
+GENAI_API_KEY = "***"
 genai.configure(api_key=GENAI_API_KEY)
 
 def get_gemini_summary(text):
@@ -85,3 +85,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
